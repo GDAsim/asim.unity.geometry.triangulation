@@ -1,6 +1,6 @@
 {
   "name": "asim.unity.geometry.triangulation",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "displayName": "Asim Unity Geometry Triangulation",
   "description": "Asim Geometry Triangulation",
   "unity": "2020.3",
@@ -28,22 +28,22 @@
   },
   "samples": [
     {
-      "displayName": "Examples",
+      "displayName": "Delaunay FlipEdge",
       "description": "Example of Triangulation Usage",
       "path": "Samples~/Points/Delaunay/FlipEdge"
     },
     {
-      "displayName": "Examples",
+      "displayName": "BowyerWatson",
       "description": "Example of Triangulation Usage",
       "path": "Samples~/Points/Delaunay/BowyerWatson"
     },
     {
-      "displayName": "Examples",
+      "displayName": "Incremental FlipEdge",
       "description": "Example of Triangulation Usage",
-      "path": "Samples~/Points/Incremental/FlipEdge"
+      "path": "Samples~/Points/Incremental"
     },
     {
-      "displayName": "Examples",
+      "displayName": "SimpleEarClipping",
       "description": "Example of Triangulation Usage",
       "path": "Samples~/Polygon/SimpleEarClipping"
     }

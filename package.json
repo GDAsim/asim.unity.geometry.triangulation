@@ -1,6 +1,6 @@
 {
   "name": "asim.unity.geometry.triangulation",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "displayName": "Asim Unity Geometry Triangulation",
   "description": "Asim Geometry Triangulation",
   "unity": "2020.3",
@@ -14,14 +14,14 @@
   "type": "library",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GDAsim/com.asim.helpers.git"
+    "url": "git+https://github.com/GDAsim/asim.unity.geometry.triangulation.git"
   },
   "author": "GDAsim <gamedevelopementasim@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GDAsim/com.asim.helpers/issues"
+    "url": "https://github.com/GDAsim/asim.unity.geometry.triangulation/issues"
   },
-  "homepage": "https://github.com/GDAsim/com.asim.helpers#readme",
+  "homepage": "https://github.com/GDAsim/asim.unity.geometry.triangulation#readme",
   "dependencies": {
     "asim.unity.extensions": "0.2.3",
     "asim.unity.geometry" : "0.1.0"

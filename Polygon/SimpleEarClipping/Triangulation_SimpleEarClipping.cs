@@ -87,9 +87,8 @@ namespace asim.unity.geometry.triangulation
                     float mindist = float.PositiveInfinity;
                     for (int i = 0; i < OuterVerts.Count; i++)
                     {
-                        
                         Vector2 edgep1 = OuterVerts[i % OuterVerts.Count];
-                        Vector2 edgep2 = OuterVerts[MathExtensions.IndexLoop(i + 1, Holes.Count)];
+                        Vector2 edgep2 = OuterVerts[MathExtensions.IndexLoop(i + 1, OuterVerts.Count)];
 
                         (bool IsParallel, bool IsLinesIntercept, Vector2 interceptPoint, _) =
                             GeometryUtils.IsLinesIntercept(Holes[InnerIndexMaxX_M], rayEnd, edgep1, edgep2);

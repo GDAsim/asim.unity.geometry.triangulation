@@ -1,6 +1,6 @@
 {
   "name": "asim.unity.geometry.triangulation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "Asim Unity Geometry Triangulation",
   "description": "Asim Geometry Triangulation",
   "unity": "2020.3",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/GDAsim/com.asim.helpers#readme",
   "dependencies": {
-    "asim.unity.extensions": "0.2.3"
+    "asim.unity.extensions": "0.2.3",
+    "asim.unity.geometry" : "0.1.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "asim.unity.geometry.triangulation",
+  "name": "@asim.unity/asim.unity.geometry.triangulation",
   "version": "0.1.7",
   "displayName": "Asim Unity Geometry Triangulation",
   "description": "Asim Geometry Triangulation",
@@ -25,6 +25,9 @@
   "dependencies": {
     "asim.unity.extensions": "0.2.3",
     "asim.unity.geometry" : "0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "samples": [
     {
